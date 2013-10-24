@@ -6,7 +6,8 @@
 // --------------------------------------------------
 
 html {
-  color: $black;
+  // color: $black;
+  color: $white;
   font: #{$base-font-size}/#{$base-line-height} $base-font-family;
   background-color: $base-background-color;
   overflow-y: scroll;
@@ -17,20 +18,28 @@ html {
 // --------------------------------------------------
 
 a {
-  color: $link-color;
+  // color: $link-color;
+  // color: #1C2535;
+  color: #FFF;
   text-decoration: none;
   cursor: pointer;
   &:visited {
-    color: $link-color-visited;
+    // color: $link-color-visited;
+    // color: #1C2535;
+    color: #FFF;
   }
   &:hover {
-    color: $link-color-hover;
+    // color: $link-color-hover;
+    // color: #1C2535;
+    color: #FFF;
   }
   &:focus {
     outline: 0;
   }
   &:active {
-    color: $link-color-active;
+    // color: $link-color-active;
+    // color: #1C2535;
+    color: #FFF;
   }
 }
 

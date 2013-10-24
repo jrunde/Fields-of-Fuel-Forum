@@ -87,7 +87,7 @@
     @include box-shadow(inset 0 1px 0 rgba($white, 0.33));
   }
   &:active {
-    @include linear-gradient($btn-primary-background-color-dark, $btn-primary-background-color);
+    // @include linear-gradient($btn-primary-background-color-dark, $btn-primary-background-color);
     @include box-shadow(inset 0 1px 3px rgba($black, 0.2));
   }
   &[disabled] {

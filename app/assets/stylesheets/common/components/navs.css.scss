@@ -30,22 +30,30 @@
     > a {
       border: 1px solid transparent;
       padding: 5px 12px;
-      color: $nav-pills-color;
+      // color: $nav-pills-color;
+      color: #EEE;
       font-size: 16px;
       line-height: 20px;
-      text-shadow: 0 1px 0 rgba($white, 0.6);
+      // text-shadow: 0 1px 0 rgba($white, 0.6);
       @include border-radius-all(4px);
       &:hover {
-        border-color: $nav-pills-border-color-hover;
-        color: $nav-pills-color-hover;
-        background-color: $nav-pills-background-color-hover;
+        // border-color: $nav-pills-border-color-hover;
+        border-color: #FFF;
+        // color: $nav-pills-color-hover;
+        color: #565656;
+        // background-color: $nav-pills-background-color-hover;
+        background-color: #FFF;
+        @include box-shadow((0 1px 3px rgba($black, 0.16), inset 0 1px 0 rgba($white, 0.22)));
       }
     }
     &.active > a, > a.active {
-      border-color: $nav-pills-border-color-active;
-      color: $nav-pills-color-active;
+      // border-color: $nav-pills-border-color-active;
+      border-color: #FFF;
+      // color: $nav-pills-color-active;
+      color: #565656;
       text-shadow: 0 1px 0 rgba($black, 0.24);
-      background-color: $nav-pills-background-color-active;
+      // background-color: $nav-pills-background-color-active;
+      background-color: #FFF;
       @include box-shadow((0 1px 3px rgba($black, 0.16), inset 0 1px 0 rgba($white, 0.22)));
     }
   }
@@ -60,9 +68,11 @@
   border: 1px solid $nav-stacked-border-color;
   padding: 0;
   overflow: hidden;
-  background-color: $nav-stacked-background-color;
+  // background-color: $nav-stacked-background-color;
+  background-color: #FFF;
   @include border-radius-all(4px);
-  @include box-shadow(0 1px 0 $white);
+  // @include box-shadow(0 1px 0 $white);
+  @include box-shadow(0 1px 0 #565656);
   > li {
     border-bottom: 1px solid $nav-stacked-divider-color;
     &:last-of-type {
@@ -79,9 +89,11 @@
   }
   .active > a,
   .active .icon-chevron-right {
-    color: $nav-stacked-border-color-active;
-    text-shadow: 0 1px 0 rgba($white, 0.5);
-    background-color: $nav-stacked-background-color-active;
+    // color: $nav-stacked-border-color-active;
+    color: #565656;
+    // text-shadow: 0 1px 0 rgba($white, 0.5);
+    // background-color: $nav-stacked-background-color-active;
+    background-color: #FFF;
   }
   .count {
     font-size: 12px;

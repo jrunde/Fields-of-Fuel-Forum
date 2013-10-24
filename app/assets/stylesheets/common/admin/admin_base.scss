@@ -18,6 +18,7 @@
   margin-bottom: 50px;
   .admin-contents {
     padding: 8px;
+    color: #1C2535;
 
     p {
       margin-left: 6px;
@@ -70,18 +71,26 @@
 
 .admin-controls {
   @include border-radius-all(5px);
-  background-color: darken($white, 5%);
-  border: 1px solid darken($white, 10%);
+  // background-color: darken($white, 5%);
+  background-color: #DDD;
+  // border: 1px solid darken($white, 10%);
+  border: 1px solid #DDD;
   padding: 5px 10px 3px 0px;
   margin-bottom: 20px;
   height: 35px;
   .nav.nav-pills {
     li.active {
       a {
-        border-color: darken($dark_gray, 10%);
-        background-color: $dark_gray;
+        // border-color: darken($dark_gray, 10%);
+        border-color: #FFF;
+        // background-color: $dark_gray;
+        background-color: #FFF;
         &:hover {
-          background-color: $dark_gray;
+          // background-color: $dark_gray;
+          background-color: #FFF;
+        }
+        &:disabled {
+          color: #555;
         }
       }
     }

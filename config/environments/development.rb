@@ -34,7 +34,15 @@ Discourse::Application.configure do
   config.handlebars.precompile = false
 
   # we recommend you use mailcatcher https://github.com/sj26/mailcatcher
-  config.action_mailer.smtp_settings = { address: "localhost", port: 1025 }
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+        :address              => "smtp.mandrillapp.com",
+        :port                 => 587,
+        :domain               => 'discovery.wisc.edu',
+        :user_name            => 'fof_admin@discourse.org',
+        :password             => 'IHsRHpJthLrpAxPBwODWIA',
+        :authentication       => 'login',
+        :enable_starttls_auto => true  }
 
   config.action_mailer.raise_delivery_errors = true
 
