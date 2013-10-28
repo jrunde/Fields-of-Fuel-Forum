@@ -70,12 +70,14 @@ $btn-danger-background-color-light: #F7941D !default;
 // Pill nav
 
 $nav-pills-color: #534d4b !default;
-$nav-pills-color-hover: #e45735 !default;
+// $nav-pills-color-hover: #e45735 !default;
+$nav-pills-color-hover: #1c2535 !default;
 $nav-pills-border-color-hover: #f6d5cd !default;
 $nav-pills-background-color-hover: #fff0ed !default;
 $nav-pills-color-active: #ffeeea !default;
 $nav-pills-border-color-active: #ac3d22 !default;
-$nav-pills-background-color-active: #e45735 !default;
+// $nav-pills-background-color-active: #e45735 !default;
+$nav-pills-background-color-active: #1c2535 !default;
 
 // Stacked nav
 
@@ -83,7 +85,8 @@ $nav-stacked-border-color: #b9b9b9 !default;
 $nav-stacked-background-color: #fafafa !default;
 $nav-stacked-divider-color: #e6e6e6 !default;
 $nav-stacked-chevron-color: #ccc !default;
-$nav-stacked-border-color-active: #f15b22 !default;
+// $nav-stacked-border-color-active: #f15b22 !default;
+$nav-stacked-border-color-active: #1C2535 !default;
 $nav-stacked-background-color-active: #f9e7e0 !default;
 
 // Button nav
@@ -104,7 +107,8 @@ $nav-like-button-background-color-active: #fae9ed !default;
 
 // Header
 
-$modal-header-color: #e45735 !default;
+// $modal-header-color: #e45735 !default;
+$modal-header-color: #1C2535 !default;
 $modal-header-border-color: #b3b3b3 !default;
 $modal-close-button-color: #b4b4b4;
 
